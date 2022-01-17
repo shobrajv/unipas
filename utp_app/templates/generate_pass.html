@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load static%}
+
+{% block content %}
+
+<head>
+    <title>Universal Travel Pass</title>
+</head>
+<body>
+    <img id="" src="{% static 'passes/' %}{{ beneficiary_id }}.png" alt="universal_pass"></img>
+</body>
+
+{% endblock content %}
